@@ -11,9 +11,14 @@
   },
   "conditionalSetting": [
     {
-      "workflows": [ "CI/CD" ],
+      "workflows": [
+        "CI/CD"
+      ],
       "settings": {
-        "workflowConcurrency": [ "group: ${{ github.workflow }}-${{ github.ref }}", "cancel-in-progress: true" ]
+        "workflowConcurrency": [
+          "group: ${{ github.workflow }}-${{ github.ref }}",
+          "cancel-in-progress: true"
+        ]
       }
     }
   ],
