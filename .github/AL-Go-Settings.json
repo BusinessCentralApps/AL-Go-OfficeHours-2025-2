@@ -9,10 +9,10 @@
     "retentionDays": 60,
     "mode": "modifiedApps"
   },
-  "conditionalSetting": [
+  "conditionalSettings": [
     {
       "workflows": [
-        " CI/CD"
+        "CI/CD"
       ],
       "settings": {
         "workflowConcurrency": [
