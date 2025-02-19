@@ -1,0 +1,26 @@
+{
+  "country": "it",
+  "appFolders": [],
+  "testFolders": [],
+  "repoVersion": "3.3",
+  "conditionalSettings": [
+    {
+      "buildModes": ["Default"],
+      "settings": {
+        "artifact": "https://bcartifacts-exdbf9fwegejdqak.b02.azurefd.net/sandbox/24.0.16410.18040/it"
+      }
+    },
+    {
+      "buildModes": ["NextMajor"],
+      "settings": {
+        "artifact":  "///it/nextmajor/"
+      }
+    },
+    {
+      "buildModes": ["NextMinor"],
+      "settings": {
+        "artifact":  "///it/nextminor/"
+      }
+    }
+  ]
+}

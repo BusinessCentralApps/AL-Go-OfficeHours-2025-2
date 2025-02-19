@@ -1,0 +1,26 @@
+{
+  "country": "dk",
+  "appFolders": [],
+  "testFolders": [],
+  "repoVersion": "3.3",
+  "conditionalSettings": [
+    {
+      "buildModes": ["Default"],
+      "settings": {
+        "artifact": "https://bcartifacts-exdbf9fwegejdqak.b02.azurefd.net/sandbox/24.0.16410.18040/dk"
+      }
+    },
+    {
+      "buildModes": ["NextMajor"],
+      "settings": {
+        "artifact":  "///dk/nextmajor/"
+      }
+    },
+    {
+      "buildModes": ["NextMinor"],
+      "settings": {
+        "artifact":  "///dk/nextminor/"
+      }
+    }
+  ]
+}
