@@ -2,7 +2,7 @@
   "id": "b9357030-4f32-45b4-991a-55da6f52ae9c",
   "name": "IT",
   "publisher": "Freddy",
-  "version": "3.3.0.0",
+  "version": "1.0.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -15,19 +15,19 @@
       "id": "470751f1-1ceb-47bd-bc70-16913859e827",
       "name": "Common",
       "publisher": "Freddy",
-      "version": "3.3.0.0"
+      "version": "1.0.0.0"
     },
     {
       "id": "89a15c0b-aa68-485c-94f0-0ad2d114123d",
       "name": "W1",
       "publisher": "Freddy",
-      "version": "4.3.0.0"
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
-  "platform": "22.0.0.0",
-  "application": "22.4.0.0",
-  "runtime": "11.1",
+  "platform": "25.0.0.0",
+  "application": "25.4.0.0",
+  "runtime": "14.0",
   "idRanges": [
     {
       "from": 62000,

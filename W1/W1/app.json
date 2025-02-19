@@ -2,7 +2,7 @@
   "id": "89a15c0b-aa68-485c-94f0-0ad2d114123d",
   "name": "W1",
   "publisher": "Freddy",
-  "version": "4.3.0.0",
+  "version": "1.0.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -15,19 +15,19 @@
       "id": "470751f1-1ceb-47bd-bc70-16913859e827",
       "name": "Common",
       "publisher": "Freddy",
-      "version": "3.3.0.0"
+      "version": "1.0.0.0"
     },
     {
       "id": "f5576291-46e8-409e-9a0d-465962723b99",
       "name": "Licensing",
       "publisher": "Freddy",
-      "version": "5.4.0.0"
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
-  "platform": "22.0.0.0",
-  "application": "22.0.0.0",
-  "runtime": "11.0",
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "runtime": "14.0",
   "idRanges": [
     {
       "from": 60000,
