@@ -23,7 +23,7 @@
     }
   ],
   "useProjectDependencies": true,
-  "runs-on": "windows-latest",
+  "runs-on": "ubuntu-latest",
   "shell": "pwsh",
   "gitHubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
