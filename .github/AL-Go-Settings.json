@@ -1,6 +1,6 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/freddydk/AL-Go@issue1469",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
   "GhTokenWorkflowSecretName": "GhAppTokenWorkflow",
   "incrementalBuilds": {
     "onPush": true,
