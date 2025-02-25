@@ -224,12 +224,7 @@ jobs:
             Accept = "application/vnd.github.v3+json"
           }
           $response = Invoke-WebRequest -Uri "https://api.github.com/" -Headers $headers -Method Get
-          # Extract and display the OAuth scopes from the headers
-          if ($response.Headers.'X-OAuth-Scopes') {
-              Write-Host "Token Scopes Granted: $($response.Headers.'X-OAuth-Scopes')"
-          } else {
-              Write-Host "No OAuth Scopes found or insufficient permissions."
-          }
+          $response.Headers | Out-Host
 
       - name: Create release
         uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
