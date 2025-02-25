@@ -11,7 +11,7 @@
   },
   "deployToTest": {
     "conditionalDeployment": false,
-    "dependencyInstallMode": "upgrade,
+    "dependencyInstallMode": "upgrade",
     "includeTestAppsInSandboxEnvironment": true,
     "excludeAppIds": [
       "cae4c8c8-effe-457e-9fb1-b1c204cda1ab",
