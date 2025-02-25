@@ -9,6 +9,15 @@
     "retentionDays": 60,
     "mode": "modifiedApps"
   },
+  "deployToTest": {
+    "conditionalDeployment": false,
+    "dependencyInstallMode": "upgrade,
+    "includeTestAppsInSandboxEnvironment": true,
+    "excludeAppIds": [
+      "cae4c8c8-effe-457e-9fb1-b1c204cda1ab",
+      "63a6f098-d619-4cdc-b5fa-6ff5f9b12b2a"
+    ]
+  },
   "conditionalSettings": [
     {
       "workflows": [
